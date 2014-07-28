@@ -1,0 +1,14 @@
+{
+  "name": "promises",
+  "author": "Victor Nystad",
+  "description": "An experiment involving promises",
+  "devDependencies": {
+    "es6-promise": "~1.0.0",
+    "gulp": "~3.8.6",
+    "gulp-watch": "~0.6.8",
+    "gulp-connect": "~2.0.6",
+    "gulp-browserify": "~0.5.0",
+    "gulp-download": "0.0.1",
+    "gulp-tap": "~0.1.1"
+  }
+}
