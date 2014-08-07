@@ -1,6 +1,4 @@
-var Promise = require('es6-promise').Promise;
-
-var get = function get(url) {
+function get(url) {
     return new Promise(function(resolve, reject) {
         var req = new XMLHttpRequest();
         req.open('GET', url);
@@ -16,6 +14,8 @@ var get = function get(url) {
         req.onerror = function() {
             reject(Error('Network error'))
         }
+
+        req.send();
     })
 }
 
