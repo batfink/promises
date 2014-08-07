@@ -16,6 +16,8 @@ var get = function get(url) {
         req.onerror = function() {
             reject(Error('Network error'))
         }
+        
+        req.send();
     })
 }
 
